@@ -6,7 +6,7 @@
 | **Severity** | High (Auto-Contained) |
 | **MITRE ATT&CK** | T1530 – Data from Cloud Storage |
 | **Detection Source** | AWS CloudTrail / Amazon EventBridge |
-| **Affected Resource** | Amazon S3 Bucket (`soc-remediation-lab-test-bucket`) |
+| **Affected Resource** | Amazon S3 Bucket (`soc-remediation-lab-test-bucket-chiku`) |
 | **Status** | Contained – Pending Owner Verification |
 
 ## 1. Executive Summary
