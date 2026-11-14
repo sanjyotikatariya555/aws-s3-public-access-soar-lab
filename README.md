@@ -18,7 +18,7 @@ When public access protections are disabled on an S3 bucket, EventBridge capture
 ## 🧪 Proof of Execution
 
 ### 1. Lambda Auto-Remediation Function
-Configured an AWS Lambda function (`S3-Auto-Remediation-Public-Access`) using Python and `boto3` to parse incoming CloudTrail event details and enforce `put_public_access_block()` on the affected bucket.
+Configured an AWS Lambda function (`S3-Auto-Remediate-Public-Access`) using Python and `boto3` to parse incoming CloudTrail event details and enforce `put_public_access_block()` on the affected bucket.
 
 ![Lambda Remediation Code](01_lambda_code.png)
 
